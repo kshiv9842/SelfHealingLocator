@@ -67,15 +67,13 @@ Locator Update: Gemini AI returns a new, valid locator, which is updated in the 
   mvn test
 
 <h2>Usage 💻</h2>
-- Implementing Self-Healing Locators
-- Create Locators with Parent Elements:
-- Use the LocatorManager class to define locators.
-
-<h2>Handle Failures:</h2> 
-If a locator fails, GeminiAIHelper is invoked to fetch a new locator.
-
-<h2>Dynamic Updates:</h2>
-Updated locators are set using getter and setter methods.
+<h3>Implementing Self-Healing Locators</h3>
+  <h4>Create Locators with Parent Elements:</h4>
+  Use the LocatorManager class to define locators.
+  <h4>Handle Failures:</h4> 
+  If a locator fails, GeminiAIHelper is invoked to fetch a new locator.
+  <h4>Dynamic Updates:</h4>
+  Updated locators are set using getter and setter methods.
 
 <h2>Example Code ✨</h2>
 LocatorManager locatorManager = new LocatorManager(driver);
